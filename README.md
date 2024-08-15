@@ -5,6 +5,10 @@ Lasiandra Finance Inc. (LFI) New York, USA is a leading private financing compan
 
 The main problem faced by the LFI is the approval process of the loans. Because it is a complicated verification and validation procedure, there is still no guarantee whether the chosen applicant is the deserving one out of all applicants. Hence, it needs a model which can predict the loan approval. Therefore, analysing the data set obtained from past customers, and building the most accurate model to predict the approval process as approved or rejected is pivotal.
 
-Datasets: TRAINING_DS & TESTING_DS CSV files, both of which represent the training and testing datasets respectively
-SAS Code: SOURCE-CODE-MAR-2024
-Full report: FULL-REPORT.pdf
+***Documents:***
+
+*Datasets:* TRAINING_DS & TESTING_DS CSV files, both of which represent the training and testing datasets respectively
+
+*SAS Code:* SOURCE-CODE-MAR-2024
+
+*Full report:* FULL-REPORT.pdf
