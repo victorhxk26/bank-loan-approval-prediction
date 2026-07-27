@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_logistic_model",
+  "source_file": "SOURCE-CODE-MAR-2024.sas",
+  "source_blob_sha": "fe4ced8745c40a688fea6d719525ac2ced76bf56",
+  "source_commit": "991293ea5883b97ac1074dd923a1b6b4422b4fff",
+  "notes": "The author's model pipeline verbatim: PROC LOGISTIC fits LOAN_APPROVAL_STATUS on the full CLASS/MODEL predictor set and persists it with OUTMODEL, then a second PROC LOGISTIC reloads it via INMODEL and SCOREs the held-out TESTING_DS into TESTING_LAS_PRED_TP078400_DS. autoexec aliases LIB78400 to WORK and rebuilds both TRAINING_DS (20 rows) and TESTING_DS (10 rows) from the repo CSVs. With this small sample the fit is quasi-completely separable (a normal small-n statistical property, not a defect); pinned fields are the deterministic model-written / scored NOTE lines, not the numeric estimates."
+}

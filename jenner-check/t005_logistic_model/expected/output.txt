@@ -1,0 +1,97 @@
+                                     
+---------------------------  --------
+Number of Observations Read        20
+Number of Observations Used        20
+
+                  Response Profile                  
+  Probability modeled is LOAN_APPROVAL_STATUS='N'   
+
+Ordered Value  LOAN_APPROVAL_STATUS  Total Frequency
+-------------  --------------------  ---------------
+            1  N                                   8
+            2  Y                                  12
+
+             Class Level Information             
+
+Class             Levels  Values                 
+--------------  --------  -----------------------
+GENDER                 2  Female Male            
+MARITAL_STATUS         2  Married Not_Married    
+FAMILY_MEMBERS         4  0 1 2 3                
+QUALIFICATION          2  Graduate Under_Graduate
+EMPLOYMENT             2  No Yes                 
+LOAN_HISTORY           2  0 1                    
+LOAN_LOCATION          3  City Town Village      
+
+                                    
+------------------------------------
+WARNING: The model did not converge.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+The LOGISTIC Procedure
+Response Variable: LOAN_APPROVAL_STATUS
+
+Criterion     Value
+---------  --------
+AIC          30.210
+-2 Log L      0.210
+SC           45.146
+
+                   Analysis of Maximum Likelihood Estimates                    
+
+Parameter                 Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+----------------  ----------------  --------------  ---------------  ----------
+Intercept         13320963002.3682               .           0.0000      1.0000
+GENDER             3283506284.3755     115655.5800   806013882.0179      <.0001
+MARITAL_STATUS     7073682670.7072     218957.0650  1043694080.8956      <.0001
+FAMILY_MEMBERS      709007240.9221     237468.6961     8914327.9223      <.0001
+FAMILY_MEMBERS    -7250080566.3045     254845.1080   809343834.8786      <.0001
+FAMILY_MEMBERS    -4786387446.8555     206921.0551   535064740.9829      <.0001
+QUALIFICATION      5968001165.1332     203198.6697   862613156.2377      <.0001
+EMPLOYMENT          578368155.8597     140668.5853    16904973.9864      <.0001
+CANDIDATE_INCOME       499057.2932         15.5579  1028955283.2357      <.0001
+GUARANTEE_INCOME       267733.2219         16.9865   248427198.2301      <.0001
+LOAN_AMOUNT           2274391.7672        863.6272     6935502.6389      <.0001
+LOAN_DURATION       -61171784.3372               .           0.0000      1.0000
+LOAN_HISTORY       3364274366.3764      74807.0053  2022545380.4884      <.0001
+LOAN_LOCATION     -7083768682.3074      73123.9191  9384471569.1097      <.0001
+LOAN_LOCATION     -7807747463.0069     171506.6862  2072475497.1804      <.0001
+
+                         Odds Ratio Estimates                         
+
+Effect            Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+----------------  --------------  -----------------  -----------------
+GENDER                         .                  .                  .
+MARITAL_STATUS                 .                  .                  .
+FAMILY_MEMBERS                 .                  .                  .
+FAMILY_MEMBERS            <0.001             <0.001             <0.001
+FAMILY_MEMBERS            <0.001             <0.001             <0.001
+QUALIFICATION                  .                  .                  .
+EMPLOYMENT                     .                  .                  .
+LOAN_HISTORY                   .                  .                  .
+LOAN_LOCATION             <0.001             <0.001             <0.001
+LOAN_LOCATION             <0.001             <0.001             <0.001
+CANDIDATE_INCOME               .                  .                  .
+GUARANTEE_INCOME               .                  .                  .
+LOAN_AMOUNT                    .                  .                  .
+LOAN_DURATION             <0.001                  .                  .
+
+                                 List the status of the LOAN_APPROVAL_STATUS predicted
+
+SME_LOAN_ID_NO  GENDER  MARITAL_STATUS  FAMILY_MEMBERS   QUALIFICATION  EMPLOYMENT  LOAN_LOCATION  LOAN_APPROVAL_STATUS  CANDIDATE_INCOME  GUARANTEE_INCOME  LOAN_AMOUNT  LOAN_DURATION  LOAN_HISTORY  From: response level  Predicted Probability
+--------------  ------  --------------  --------------  --------------  ----------  -------------  --------------------  ----------------  ----------------  -----------  -------------  ------------  --------------------  ---------------------
+      LP001015    Male         Married               0        Graduate          No           City                     Y            5720.0               0.0        110.0          360.0           1.0                     1                    0.0
+      LP001022    Male         Married               1        Graduate          No           City                     Y            3076.0            1500.0        126.0          360.0           1.0                     1                    0.0
+      LP001031    Male         Married               2        Graduate          No           City                     N            5000.0            1800.0        208.0          360.0           1.0                     1                    0.0
+      LP001035    Male         Married               2        Graduate          No           City                     Y            2340.0            2546.0        100.0          360.0           1.0                     1                    0.0
+      LP001051    Male     Not_Married               0        Graduate          No           City                     Y            3276.0               0.0         78.0          360.0           1.0                     1                    0.0
+      LP001054  Female         Married               0  Under_Graduate         Yes           City                     Y            2165.0            3422.0        152.0          360.0           1.0                     1                    0.0
+      LP001055  Female     Not_Married               1  Under_Graduate          No        Village                     N            2226.0               0.0         59.0          360.0           1.0                     1                    0.0
+      LP001059    Male         Married               2        Graduate          No           City                     Y           13633.0               0.0        280.0          240.0           1.0                     1                    1.0
+      LP001067    Male     Not_Married               0  Under_Graduate          No           Town                     Y            2400.0            2400.0        123.0          360.0           1.0                     1                    0.0
+      LP001108    Male         Married               0        Graduate          No           City                     Y            9226.0            7916.0        300.0          360.0           1.0                     1                    0.0
+
+----------End----------

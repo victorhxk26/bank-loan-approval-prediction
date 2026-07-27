@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_uva_freq_means",
+  "source_file": "SOURCE-CODE-MAR-2024.sas",
+  "source_blob_sha": "fe4ced8745c40a688fea6d719525ac2ced76bf56",
+  "source_commit": "991293ea5883b97ac1074dd923a1b6b4422b4fff",
+  "notes": "Univariate EDA from the script: PROC FREQ on MARITAL_STATUS/GENDER/LOAN_APPROVAL_STATUS and PROC MEANS (N NMISS MIN MAX MEAN MEDIAN STD) on LOAN_AMOUNT/CANDIDATE_INCOME. Self-contained: script.sas builds WORK.TRAINING_DS (24 rows, 13 cols) inline via datalines sampled from TRAINING_DS.csv and aliases LIB78400 to WORK, so it also runs standalone on /v1/quick. The upstream library dataset is not shipped in the repo."
+}

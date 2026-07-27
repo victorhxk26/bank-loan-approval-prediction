@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_sql_impute",
+  "source_file": "SOURCE-CODE-MAR-2024.sas",
+  "source_blob_sha": "fe4ced8745c40a688fea6d719525ac2ced76bf56",
+  "source_commit": "991293ea5883b97ac1074dd923a1b6b4422b4fff",
+  "notes": "The author's PROC SQL mode-imputation sequence for GENDER, verbatim: locate/count blanks, tabulate per-value COUNTS into a stat table, then UPDATE the blanks to the value with MAX(COUNTS) via a correlated sub-query, and re-check that none remain. autoexec aliases LIB78400 to WORK and rebuilds TRAINING_DS (20 rows, 13 cols) from TRAINING_DS.csv with two deliberately blank GENDER rows so the imputation has something to fill. Verified: STEP 6 post-impute query returns zero rows."
+}

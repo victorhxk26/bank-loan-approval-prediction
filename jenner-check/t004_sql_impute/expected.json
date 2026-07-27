@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-27T16:53:04.721854+00:00",
+  "_captured_run_id": "r_4a4374aea13644679d4bfae470631a9f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote LIB78400.TRAINING_DS (20 rows, 13 columns).",
+    "NOTE: Table LIB78400.TRAINING_GENDER_STAT_DS created.",
+    "NOTE: PROC SQL statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
