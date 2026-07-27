@@ -1,0 +1,38 @@
+                                   Find the details of loan applicants who submitted
+                                 their loan application without specifying their gender
+
+SME_LOAN_ID_NO  GENDER  MARITAL_STATUS  FAMILY_MEMBERS   QUALIFICATION  EMPLOYMENT  LOAN_LOCATION  LOAN_APPROVAL_STATUS  CANDIDATE_INCOME  GUARANTEE_INCOME  LOAN_AMOUNT  LOAN_DURATION  LOAN_HISTORY
+--------------  ------  --------------  --------------  --------------  ----------  -------------  --------------------  ----------------  ----------------  -----------  -------------  ------------
+      LP001050                 Married               2        Graduate          No        Village                     N            3365.0            1917.0        112.0          360.0           0.0
+      LP001073             Not Married               0  Under Graduate          No           Town                     Y            4226.0            1040.0        110.0          360.0           1.0
+
+----------END----------
+                                   Count the number of loan applicants who submitted
+                             their loan application without without specifying their gender
+
+Number of Applicants
+--------------------
+                   2
+
+----------END----------
+                                    Find the statistics of male & female applicants
+
+GENDER  COUNTS
+------  ------
+Female       3
+  Male      15
+
+----------END----------
+                                    Find the statistics of male & female applicants
+
+
+----------END----------
+                                    Find the statistics of male & female applicants
+
+
+----------END----------
+                              STEP 6(AI) Find the details of loan applicants who submitted
+                                 their loan application without specifying their gender
+
+
+----------END----------

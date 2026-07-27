@@ -1,0 +1,73 @@
+                            Univariate Analysis of the Categorical variable - MARITAL_STATUS
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+MARITAL_STATUS    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Married                  12     60.00           12        60.00
+Not_Married               8     40.00           20       100.00
+                                Univariate Analysis of the Categorical variable - GENDER
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+GENDER    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female            3     15.00            3        15.00
+Male             17     85.00           20       100.00
+                            Univariate Analysis of the Categorical variable - QUALIFICATION
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+QUALIFICATION     Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Graduate                 15     75.00           15        75.00
+Under_Graduate            5     25.00           20       100.00
+                            Univariate Analysis of the Categorical variable - LOAN_LOCATION
+
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+LOAN_LOCATION    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+City                    15     75.00           15        75.00
+Town                     2     10.00           17        85.00
+Village                  3     15.00           20       100.00
+                                   UVA of the continuous variable - CANDIDATE_INCOME
+
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss          Minimum           Maximum             Mean           Median          Std Dev
+ ------------------------------------------------------------------------------------------------------------------------
+ CANDIDATE_INCOME       20        0     1300.0000000     13633.0000000     4728.0000000     3833.5000000     3312.8983971
+ ------------------------------------------------------------------------------------------------------------------------
+
+                                   UVA of the continuous variable - GUARANTEE_INCOME
+
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss        Minimum          Maximum             Mean          Median          Std Dev
+ --------------------------------------------------------------------------------------------------------------------
+ GUARANTEE_INCOME       20        0      0.0000000     7916.0000000     1390.9500000     166.5000000     2004.7774381
+ --------------------------------------------------------------------------------------------------------------------
+
+                                      UVA of the continuous variable - LOAN_AMOUNT
+
+                                                  The MEANS Procedure
+
+ Variable           N   N Miss        Minimum         Maximum            Mean          Median        Std Dev
+ -----------------------------------------------------------------------------------------------------------
+ LOAN_AMOUNT       19        1     59.0000000     300.0000000     145.8947368     126.0000000     63.4734369
+ -----------------------------------------------------------------------------------------------------------
+
+                                     UVA of the continuous variable - LOAN_DURATION
+
+                                                  The MEANS Procedure
+
+ Variable             N   N Miss         Minimum         Maximum            Mean          Median        Std Dev
+ --------------------------------------------------------------------------------------------------------------
+ LOAN_DURATION       20        0     180.0000000     360.0000000     345.0000000     360.0000000     47.1838509
+ --------------------------------------------------------------------------------------------------------------
+

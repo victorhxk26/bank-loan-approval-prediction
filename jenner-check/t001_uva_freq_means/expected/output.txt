@@ -1,0 +1,45 @@
+                            Univariate Analysis of the Categorical Variable: MARITAL_STATUS
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+MARITAL_STATUS    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Married                  17     70.83           17        70.83
+Not_Married               7     29.17           24       100.00
+                                Univariate Analysis of the Categorical Variable: GENDER
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+GENDER    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female            3     13.04            3        13.04
+Male             20     86.96           23       100.00
+                         Univariate Analysis of the Categorical Variable: LOAN_APPROVAL_STATUS
+
+                                                   The FREQ Procedure
+
+                                                  Cumulative    Cumulative
+LOAN_APPROVAL_STATUS    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------
+N                               9     37.50            9        37.50
+Y                              15     62.50           24       100.00
+                              Univariate Analysis of the Continuous Variable: LOAN_AMOUNT
+
+                                                  The MEANS Procedure
+
+ Variable           N   N Miss        Minimum         Maximum            Mean          Median        Std Dev
+ -----------------------------------------------------------------------------------------------------------
+ LOAN_AMOUNT       23        1     17.0000000     349.0000000     142.3478261     120.0000000     78.6115933
+ -----------------------------------------------------------------------------------------------------------
+
+                            Univariate Analysis of the Continuous Variable: CANDIDATE_INCOME
+
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss          Minimum           Maximum             Mean           Median          Std Dev
+ ------------------------------------------------------------------------------------------------------------------------
+ CANDIDATE_INCOME       24        0     1299.0000000     12841.0000000     4485.6666667     3553.0000000     2614.5613427
+ ------------------------------------------------------------------------------------------------------------------------
+

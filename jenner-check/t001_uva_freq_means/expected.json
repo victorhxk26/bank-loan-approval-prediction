@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-27T17:18:47.501139+00:00",
+  "_captured_run_id": "r_27f9a297b84b45dfa288a81045032cf1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote LIB78400.TRAINING_DS (24 rows, 13 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

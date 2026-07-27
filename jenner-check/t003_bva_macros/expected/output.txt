@@ -1,0 +1,68 @@
+                                         Bivariate Analysis of the Variables: 
+                                              MARITAL_STATUS VS EMPLOYMENT
+
+                                                   The FREQ Procedure
+
+Table of MARITAL_STATUS by EMPLOYMENT
+
+MARITAL_STATUS |        No |       Yes |      Total
+---------------+-----------+-----------+-----------
+Married        |        11 |         1 |         12
+               |     55.00 |      5.00 |      60.00
+               |     91.67 |      8.33 |     100.00
+               |     57.89 |    100.00 |      60.00
+---------------+-----------+-----------+-----------
+Not_Married    |         8 |         0 |          8
+               |     40.00 |      0.00 |      40.00
+               |    100.00 |      0.00 |     100.00
+               |     42.11 |      0.00 |      40.00
+---------------+-----------+-----------+-----------
+Total          |        19 |         1 |         20
+
+                                         Bivariate Analysis of the Variables: 
+                                                  GENDER VS EMPLOYMENT
+
+                                                   The FREQ Procedure
+
+Table of GENDER by EMPLOYMENT
+
+GENDER |        No |       Yes |      Total
+-------+-----------+-----------+-----------
+Female |         2 |         1 |          3
+       |     10.00 |      5.00 |      15.00
+       |     66.67 |     33.33 |     100.00
+       |     10.53 |    100.00 |      15.00
+-------+-----------+-----------+-----------
+Male   |        17 |         0 |         17
+       |     85.00 |      0.00 |      85.00
+       |    100.00 |      0.00 |     100.00
+       |     89.47 |      0.00 |      85.00
+-------+-----------+-----------+-----------
+Total  |        19 |         1 |         20
+
+                            Bivariate Analysis of the Variables (Categorical VS Continuous -
+                                             MARITAL_STATUS VS LOAN_AMOUNT)
+
+                                                  The MEANS Procedure
+
+                                            Analysis Variable : LOAN_AMOUNT
+
+        MARITAL_STATUS          N Obs           Mean        Std Dev        Minimum        Maximum
+        -----------------------------------------------------------------------------------------
+        Married                    11    177.3636364     64.8972615    100.0000000    300.0000000
+        Not_Married                 8    102.6250000     25.4442668     59.0000000    131.0000000
+        -----------------------------------------------------------------------------------------
+
+                            Bivariate Analysis of the Variables (Categorical vs Continuous -
+                                            EMPLOYMENT VS CANDIDATE_INCOME)
+
+                                                  The MEANS Procedure
+
+                                          Analysis Variable : CANDIDATE_INCOME
+
+        EMPLOYMENT          N Obs           Mean        Std Dev        Minimum        Maximum
+        -------------------------------------------------------------------------------------
+        No                     19   4862.8947368   3346.7722077   1300.0000000  13633.0000000
+        Yes                     1   2165.0000000              .   2165.0000000   2165.0000000
+        -------------------------------------------------------------------------------------
+
